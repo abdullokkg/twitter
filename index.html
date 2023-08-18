@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+       <div class="card_item">
+        <img class="card" src="./img/fotosvg.svg" alt="">
+        <h1>Welcome to ByTrend!</h1>
+        <p class="p">Already have an account?</p><span><a class="h" href="https://www.yandex.com">Log in</a></span>
+       </div>
+        <form class="form" action="https://echo.htmlacademy.ru" method="post">
+         <div class="box">
+            <label class="card1" for="email">Email <span class="required-mark">*</span></label>
+            <input class="number" required type="email" name="email" id="email" placeholder="Email address">
+         </div>
+         <div class="box">
+           <label class="card1" for="tel">Phone <span class="required-mark">*</span></label>
+           <input class="number" required type="tel" name="tel" id="tel" placeholder="+7 | 965-748-89-90"  >
+         </div>
+         <form class="form2" action="https://echo.htmlacademy.ru">
+            <div class="box2">
+                <div class="box2-in_1">
+                    <label class="card1" for="Country">Country <span class="required-mark">*</span></label>
+                    <select class="country_1" name="country" id="country">
+                     <option value="Uzb">O'zbekistan</option>
+                     <option value="australia">Australia</option>
+                     <option value="usa">USA</option>
+                     <option value="uk">UK</option>
+                     <option value="canada">Canada</option>
+                     <option value="india">India</option>
+                     <option value="pokiston">Pokiston</option>
+                     <option value="pokiston">Qozogiston</option>
+                     <option value="pokiston">Turkmaniston</option>
+                    </select>
+                   </div>
+                   <div class="box2-in_2">
+                    <label class="card1" for="city">City <span class="required-mark">*</span></label>
+                    <input class="country_2" required type="text" name="city" id="city" placeholder="Name of the city">              
+                   </div>
+                </div>
+                <div class="box">
+                    <label class="card1" for="password">Password <span class="required-mark">*</span></label>
+                    <input class="number" required type="password" name="password" id="password" placeholder="************">
+                 </div>
+                 <div class="box">
+                    <label class="card1" for="coniform-password">Coniform-password <span class="required-mark">*</span></label>
+                    <input class="number" required type="password" name="coniform-password" id="coniform-password" placeholder="">
+                 </div>
+                 <button class="end-btn">Register</button>
+         </form>
+        </form>
+        <div class="By">
+            <code class="last">By signing up, you are agreeing to our <code class="footer">Terms & Conditions</code> and <code class="footer">Privacy Policy.</code></code> 
+        </div>
+    </div>
+</body>
+</html>
